@@ -3,9 +3,7 @@
   For proofs of properties of operations see bitsopsprops.v
   ===========================================================================*)
 
-Require Import mathcomp.ssreflect.ssreflect.
-
-From mathcomp Require Import ssrfun ssrbool eqtype ssrnat seq tuple.
+From mathcomp Require Import ssreflect ssrfun ssrbool eqtype ssrnat seq tuple.
 Require Import spec.
 
 Set Implicit Arguments.
