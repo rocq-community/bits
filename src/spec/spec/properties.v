@@ -3,9 +3,7 @@
   ===========================================================================*)
 From Coq Require Import ZArith.ZArith.
 (*Require Import common.tuplehelp common.nathelp.*)
-From mathcomp Require Import ssreflect.
-
-From mathcomp Require Import ssrfun ssrbool eqtype ssrnat seq fintype tuple div zmodp ssralg.
+From mathcomp Require Import ssreflect ssrfun ssrbool eqtype ssrnat seq fintype tuple div zmodp ssralg.
 From mathcomp Require Import ring.
 Require Import ssrextra.nat ssrextra.tuple.
 Require Import spec.spec.

@@ -1,9 +1,7 @@
-From Coq
-     Require Import ZArith.ZArith Extraction.
-Require Import mathcomp.ssreflect.ssreflect.
-From mathcomp Require Import ssrbool eqtype ssrnat seq fintype ssrfun tuple.
-From Bits
-     Require Import bits.
+From Coq Require Import ZArith.ZArith Extraction.
+From mathcomp Require Import ssreflect ssrfun ssrbool.
+From mathcomp Require Import eqtype ssrnat seq fintype tuple.
+From Bits Require Import bits.
 
 (* TODO:
      * Complete missing lemmas

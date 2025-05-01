@@ -3,9 +3,7 @@
   ===========================================================================*)
 From Coq Require Import Ring_theory.
 From HB Require Import structures.
-Require Import mathcomp.ssreflect.ssreflect.
-
-From mathcomp Require Import ssrfun ssrbool eqtype ssrnat seq fintype tuple zmodp div.
+From mathcomp Require Import ssreflect ssrfun ssrbool eqtype ssrnat seq fintype tuple zmodp div.
 Require Import ssrextra.tuple ssrextra.nat.
 Require Import spec spec.properties operations.
 
