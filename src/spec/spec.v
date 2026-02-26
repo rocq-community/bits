@@ -14,6 +14,7 @@
 
 From Coq Require Import ZArith.ZArith Strings.String.
 From mathcomp Require Import ssreflect ssrfun ssrbool eqtype ssrnat seq fintype tuple zmodp.
+Set SsrOldRewriteGoalsOrder.  (* change Set to Unset when porting the file, then remove the line when requiring MathComp >= 2.6 *)
 
 (* We represent n-bit words by a tuple of booleans, least-significant
 bit at the head DWORDorBYTE is especially useful for multi-mode
