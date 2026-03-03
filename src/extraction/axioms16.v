@@ -2,6 +2,7 @@ From Coq Require Import ZArith.ZArith Extraction.
 From mathcomp Require Import ssreflect ssrfun ssrbool.
 From mathcomp Require Import eqtype ssrnat seq fintype tuple.
 From Bits Require Import bits.
+Set SsrOldRewriteGoalsOrder.  (* change Set to Unset when porting the file, then remove the line when requiring MathComp >= 2.6 *)
 
 (* TODO:
      * Complete missing lemmas

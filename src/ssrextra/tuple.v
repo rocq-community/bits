@@ -1,6 +1,7 @@
 (* Additional lemmas about tuples *)
 From Coq Require Import Setoid.
 From mathcomp Require Import ssreflect ssrfun ssrbool ssrnat eqtype seq fintype tuple.
+Set SsrOldRewriteGoalsOrder.  (* change Set to Unset when porting the file, then remove the line when requiring MathComp >= 2.6 *)
 
 Lemma mapCons {n A B} (f: A -> B) b (p: n.-tuple A) :
   map_tuple f [tuple of b :: p] = [tuple of f b :: map_tuple f p].
